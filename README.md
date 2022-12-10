@@ -49,10 +49,10 @@ wenn man das alternative Maven-Repository nicht nutzen möchte.
 **Es wird folgender Import benötigt (je nachdem, welches Theme man nutzen möchte):**
 
 ```java
-import de.symbolv.sthemes.MedicTheme;
-import de.symbolv.sthemes.BlindedTheme;
-import de.symbolv.sthemes.OceanTheme;
-import de.symbolv.sthemes.SteelTheme;
+import de.schipplock.gui.MedicTheme;
+import de.schipplock.gui.BlindedTheme;
+import de.schipplock.gui.OceanTheme;
+import de.schipplock.gui.SteelTheme;
 ```
 
 **Das Theme ändern:**
