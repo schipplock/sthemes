@@ -44,9 +44,9 @@ limitations under the License.
 
     <distributionManagement>
         <repository>
-            <id>nexus.symbolv.de</id>
-            <name>SymbolV Nexus Repository</name>
-            <url>https://nexus.symbolv.de/repository/maven/</url>
+            <id>github</id>
+            <name>GitHub Packages</name>
+            <url>https://maven.pkg.github.com/schipplock/sthemes</url>
         </repository>
     </distributionManagement>
 </project>

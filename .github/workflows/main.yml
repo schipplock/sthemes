@@ -12,4 +12,9 @@ jobs:
           java-version: '17'
           distribution: 'temurin'
           cache: maven
-      - run: mvn -B package --file pom.xml
+      - name: Build the package
+        run: mvn -B package --file pom.xml
+      - name: Publish to Github Packages
+        run: mvn -B deploy
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
