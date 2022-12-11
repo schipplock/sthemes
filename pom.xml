@@ -42,11 +42,41 @@ limitations under the License.
         </pluginManagement>
     </build>
 
-    <distributionManagement>
-        <repository>
-            <id>github</id>
-            <name>GitHub Packages</name>
-            <url>https://maven.pkg.github.com/schipplock/sthemes</url>
-        </repository>
-    </distributionManagement>
+    <profiles>
+        <profile>
+            <id>github-packages</id>
+            <activation>
+                <property>
+                    <name>package.repository</name>
+                    <value>github</value>
+                </property>
+            </activation>
+            <distributionManagement>
+                <repository>
+                    <id>github</id>
+                    <name>GitHub Packages</name>
+                    <url>https://maven.pkg.github.com/schipplock/sthemes</url>
+                </repository>
+            </distributionManagement>
+        </profile>
+        <profile>
+            <id>maven-central</id>
+            <activation>
+                <property>
+                    <name>package.repository</name>
+                    <value>ossrh</value>
+                </property>
+            </activation>
+            <distributionManagement>
+                <snapshotRepository>
+                    <id>ossrh</id>
+                    <url>https://s01.oss.sonatype.org/content/repositories/snapshots</url>
+                </snapshotRepository>
+                <repository>
+                    <id>ossrh</id>
+                    <url>https://s01.oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+                </repository>
+            </distributionManagement>
+        </profile>
+    </profiles>
 </project>
