@@ -14,10 +14,6 @@ jobs:
           cache: maven
       - name: Build the package
         run: mvn -B package --file pom.xml
-      - name: Publish to Github Packages
-        run: mvn -B deploy -Dpackage.repository=github
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Publish to the Maven Central Repository
         run: mvn -B deploy -Dpackage.repository=ossrh
         env:
