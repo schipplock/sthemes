@@ -14,9 +14,12 @@ jobs:
           java-version: '17'
           distribution: 'temurin'
           cache: maven
+          gpg-private-key: ${{ secrets.OSSRH_GPG_SECRET_KEY }}
+          gpg-passphrase: MAVEN_GPG_PASSPHRASE
       - name: Build the package
         run: mvn -B package --file pom.xml
       - name: Publish to Github Packages
-        run: mvn -B deploy -Dpackage.repository=github
+        run: mvn -B deploy -Dpackage.repository=github -Denable.signing.pipeline=true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          MAVEN_GPG_PASSPHRASE: ${{ secrets.OSSRH_GPG_SECRET_KEY_PASSWORD }}
