@@ -16,9 +16,9 @@ Diese Bibliothek wurde mit Java 17 getestet.
 
 ```xml
 <dependency>
-    <groupId>de.schipplock.gui</groupId>
+    <groupId>de.schipplock.gui.swing</groupId>
     <artifactId>sthemes</artifactId>
-    <version>0.0.4</version>
+    <version>0.0.5</version>
 </dependency>
 ```
 
@@ -27,10 +27,10 @@ Diese Bibliothek wurde mit Java 17 getestet.
 **Es wird folgender Import benötigt (je nachdem, welches Theme man nutzen möchte):**
 
 ```java
-import de.schipplock.gui.swing.themes.MedicTheme;
-import de.schipplock.gui.swing.themes.BlindedTheme;
-import de.schipplock.gui.swing.themes.OceanTheme;
-import de.schipplock.gui.swing.themes.SteelTheme;
+import de.schipplock.gui.swing.sthemes.MedicTheme;
+import de.schipplock.gui.swing.sthemes.BlindedTheme;
+import de.schipplock.gui.swing.sthemes.OceanTheme;
+import de.schipplock.gui.swing.sthemes.SteelTheme;
 ```
 
 **Das Theme ändern:**

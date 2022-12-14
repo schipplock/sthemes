@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package de.schipplock.gui.swing.themes;
+package de.schipplock.gui.swing.sthemes;
 
 import javax.swing.plaf.ColorUIResource;
 import javax.swing.plaf.metal.DefaultMetalTheme;

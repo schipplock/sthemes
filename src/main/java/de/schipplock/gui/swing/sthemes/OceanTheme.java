@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package de.schipplock.gui.swing.themes;
+package de.schipplock.gui.swing.sthemes;
 
 public class OceanTheme extends javax.swing.plaf.metal.OceanTheme {
 
