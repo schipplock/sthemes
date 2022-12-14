@@ -14,11 +14,13 @@
  * limitations under the License.
  */
 
-package de.schipplock.gui;
+package de.schipplock.gui.swing.themes;
 
-public class OceanTheme extends javax.swing.plaf.metal.OceanTheme {
+import javax.swing.plaf.metal.DefaultMetalTheme;
 
-    public static final String NAME = "Metal Ocean";
+public class SteelTheme extends DefaultMetalTheme {
+
+    public static final String NAME = "Metal Steel";
 
     @Override
     public String getName() {

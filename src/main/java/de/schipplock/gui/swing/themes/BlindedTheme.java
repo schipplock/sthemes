@@ -14,35 +14,35 @@
  * limitations under the License.
  */
 
-package de.schipplock.gui;
+package de.schipplock.gui.swing.themes;
 
 import javax.swing.plaf.ColorUIResource;
 import javax.swing.plaf.metal.DefaultMetalTheme;
 
-public class MedicTheme extends DefaultMetalTheme {
+public class BlindedTheme extends DefaultMetalTheme {
 
-    public static final String NAME = "Metal Medic";
+    public static final String NAME = "Metal Blinded";
 
     @Override
     public String getName() {
         return NAME;
     }
 
-    private final ColorUIResource primary1 = new ColorUIResource(91, 176, 75);
+    private final ColorUIResource primary1 = new ColorUIResource(239, 239, 239);
 
-    private final ColorUIResource primary2 = new ColorUIResource(185, 255, 181);
+    private final ColorUIResource primary2 = new ColorUIResource(231, 231, 231);
 
-    private final ColorUIResource primary3 = new ColorUIResource(204, 255, 179);
+    private final ColorUIResource primary3 = new ColorUIResource(232, 232, 232);
 
-    private final ColorUIResource secondary1 = new ColorUIResource(120, 204, 92);
+    private final ColorUIResource secondary1 = new ColorUIResource(241, 241, 241);
 
-    private final ColorUIResource secondary2 = new ColorUIResource(198, 255, 198);
+    private final ColorUIResource secondary2 = new ColorUIResource(245, 245, 245);
 
-    private final ColorUIResource secondary3 = new ColorUIResource(249, 240, 242);
+    private final ColorUIResource secondary3 = new ColorUIResource(255, 255, 255);
 
-    private final ColorUIResource black = new ColorUIResource(0, 0, 0);
+    private final ColorUIResource black = new ColorUIResource(166, 166, 166);
 
-    private final ColorUIResource white = new ColorUIResource(252, 252, 252);
+    private final ColorUIResource white = new ColorUIResource(255, 255, 255);
 
     @Override
     protected ColorUIResource getPrimary1() {

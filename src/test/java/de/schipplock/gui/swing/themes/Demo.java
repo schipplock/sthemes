@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package de.schipplock.gui;
+package de.schipplock.gui.swing.themes;
 
 import javax.swing.*;
 import javax.swing.plaf.metal.DefaultMetalTheme;

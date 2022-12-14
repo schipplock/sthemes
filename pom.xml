@@ -17,7 +17,7 @@ limitations under the License.
     <modelVersion>4.0.0</modelVersion>
     <groupId>de.schipplock.gui</groupId>
     <artifactId>sthemes</artifactId>
-    <version>0.0.3</version>
+    <version>0.0.4</version>
     <name>SThemes</name>
     <description>Steel Themes for the Swing Metal Look and Feel</description>
     <url>https://github.com/schipplock/sthemes</url>
