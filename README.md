@@ -4,7 +4,6 @@ SThemes ist eine Java Bibliothek, welche verschiedene Themes für das Java Look 
 SThemes steht für `Steel Themes`. Steel, weil `DefaultMetalTheme` den Namen `Steel` trägt.
 Lustigerweise ist `DefaultMetalTheme` nicht das Standardtheme des Metal Look & Feels, war es aber mal. Jetzt ist es `Ocean`.
 Mir persönlich gefällt das `Steel` Metaltheme aber deutlich besser.
-Diese Bibliothek wurde mit Java 17 getestet.
 
 ## Screenshots
 
@@ -18,7 +17,7 @@ Diese Bibliothek wurde mit Java 17 getestet.
 <dependency>
     <groupId>de.schipplock.gui.swing</groupId>
     <artifactId>sthemes</artifactId>
-    <version>0.0.5</version>
+    <version>0.0.6</version>
 </dependency>
 ```
 
